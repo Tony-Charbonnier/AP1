@@ -1,0 +1,172 @@
+*{
+  margin:0px;
+  padding: 0px;
+  font-family: Avenir, sans-serif;
+}
+.menu , ul {
+  list-style-type: none;
+}
+.menu li{
+ float: left;
+  width: 20%;
+  text-align: center;
+}
+.menu{
+  width: 100%;
+  position: sticky;
+}
+.menu a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #282925;
+  white-space : nowrap;
+  font-size: 150%
+}
+.menu a:hover{
+  color: orange;
+  background-color: #CACFBA;
+}
+.menu li ul {
+  display: none;
+ }
+.menu li:hover ul {
+  display:block;
+  background-color: #282925;
+  width: 20%
+ }
+ li ul {
+ position:absolute;
+ }
+body{
+  background-image: url(img/grey.jpg);
+}
+.text{
+    width: 50%; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    padding: 1%;
+    background-color: black;
+    color: lightgrey;
+}
+.titre1 {
+  text-align: center;
+}
+.upgradetableau{
+padding-left: 20%;
+padding-top: 10%
+}
+.imgAEG{
+ width: 50%; 
+}
+.imgSnipe{
+  width: 50%;
+}
+.imgCHU{
+  width: 50%;
+}
+.imgGaz{
+  width: 50%;
+}
+.imgShotgun{
+  width: 50%;
+}
+.conseiltableau{
+  padding-left: 20%;
+padding-top: 10%
+}
+.imgNewbie{
+  width: 55%
+}
+.imgTenue{
+  width: 55%
+}
+.imgReplique{
+  width: 55%
+}
+.formulaire{
+  border: 4px solid black;
+  width: 80%;
+  margin: auto;
+  background-color: #41423C;
+}
+.titreformulaire {
+  text-align: center;
+  background-color: #282925;
+}
+.imgGearbox{
+  float: left;
+  width: 20%;
+}
+.p2{
+  text-align:   center;
+  width:  70%;
+  font-size:  120%;
+  margin:   auto;
+}
+.p3{
+  width: 80%;
+  margin: auto;
+  font-size: 120%;
+  margin-top: 5%;
+  text-align: center;
+}
+.incoming{
+  width:100%;
+}
+.hover1 {
+  position: relative;
+  width: 100%;
+}
+.hover1 .imghover1 {
+  width: 70%;
+}
+.hover1 .imghover2 {
+  width: 50%;
+}
+.hover1 .texte-original {
+  color: #FFFFFF;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.hover1 .texte-hover {
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+}
+.hover1:hover .texte-hover {
+ opacity: 1;
+}
+.hover1 .texte-hover{
+  background-color: rgba(0,0,0,0.5);
+}
+.tenue{
+  text-align: center;
+}
+.td , .th  {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+.table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+footer{
+  background-color: black;
+  width: 100%;
+  color: white;
+  white-space : nowrap;
+  margin-top: 26%;
+
+}
+
+.imgfooter{
+  width: 10%;
+}
